@@ -1,0 +1,13 @@
+---
+name: Exercise 1 Workflow
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+    learn-github-actions:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Learning GitHub Actions
+              run: echo "Hello, GitHub Actions!"
