@@ -1,0 +1,13 @@
+name: Exercise 3 Workflow
+
+on:
+    pull_request:
+        branches:
+            - main
+
+jobs: 
+    run_on_pull_request:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Run for the pull request
+              run: echo "Running for the pull request..."
