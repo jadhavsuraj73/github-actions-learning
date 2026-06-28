@@ -3,7 +3,7 @@ name: Exercise 3 Workflow
 on:
     pull_request:
         branches:
-            - main
+            - develop
 
 jobs: 
     run_on_pull_request:
