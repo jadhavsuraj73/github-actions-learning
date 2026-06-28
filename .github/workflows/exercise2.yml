@@ -1,0 +1,13 @@
+---
+name: Exercise 2 Workflow
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+    ping-google-4-times:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Ping Google 4 times
+              run: ping -c 4 google.com
